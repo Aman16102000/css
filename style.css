@@ -1,3 +1,53 @@
-.box{
+/* .box2{
     background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    display: inline-block; /* To make block element inline, 
+} */
+
+.box{
+    height: 1200px;
+    width: 1200px;
+    border: 2px solid black;
+    position: relative;
 }
+
+
+.box1{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+   
+}
+.box2{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: relative; /* relative to it's current position */
+    left: 500px;
+}
+.box3{
+    background-color: violet;
+    height: 200px;
+    width: 200px;
+    position: absolute; /* the item you made absolute get's cut off from the document flow*/
+    left: 500px;
+}
+.box4{
+    position: fixed;
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    left: 40px;
+    
+}
+.box5{
+ 
+    
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    left: 10px;
+}
+
