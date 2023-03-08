@@ -15,6 +15,7 @@
 
 
 .box1{
+    float: left;
     background-color: aqua;
     height: 200px;
     width: 200px;
@@ -32,14 +33,15 @@
     height: 200px;
     width: 200px;
     position: absolute; /* the item you made absolute get's cut off from the document flow*/
-    left: 500px;
+left: 60px;
 }
 .box4{
-    position: fixed;
+    /* position: fixed; */
     background-color: yellow;
     height: 200px;
     width: 200px;
     left: 40px;
+   z-index: 999;  /*  who ever is having higher z-index will come on top */
     
 }
 .box5{
@@ -49,5 +51,11 @@
     height: 200px;
     width: 200px;
     left: 10px;
+    visibility: hidden;
 }
 
+
+
+.clear{
+    clear: both;
+}
