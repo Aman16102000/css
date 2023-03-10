@@ -1,61 +1,11 @@
-/* .box2{
-    background-color: red;
-    height: 100px;
-    width: 100px;
-    margin: 2px;
-    display: inline-block; /* To make block element inline, 
-} */
-
-.box{
-    height: 1200px;
-    width: 1200px;
-    border: 2px solid black;
-    position: relative;
+.container-flex{
+    display: flex;
+    flex-direction: column-reverse;
 }
 
-
-.box1{
-    float: left;
-    background-color: aqua;
-    height: 200px;
-    width: 200px;
-   
-}
-.box2{
-    background-color: red;
-    height: 200px;
-    width: 200px;
-    position: relative; /* relative to it's current position */
-    left: 500px;
-}
-.box3{
-    background-color: violet;
-    height: 200px;
-    width: 200px;
-    position: absolute; /* the item you made absolute get's cut off from the document flow*/
-left: 60px;
-}
-.box4{
-    /* position: fixed; */
-    background-color: yellow;
-    height: 200px;
-    width: 200px;
-    left: 40px;
-   z-index: 999;  /*  who ever is having higher z-index will come on top */
-    
-}
-.box5{
- 
-    
-    background-color: green;
-    height: 200px;
-    width: 200px;
-    left: 10px;
-    visibility: hidden;
-}
-
-
-
-.clear{
-    clear: both;
+.box-flex{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    margin: 5px;
 }
