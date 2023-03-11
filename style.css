@@ -6,7 +6,6 @@
     align-items: center; 
     flex-wrap: wrap;
     height:500px;
-    align-content: center;
 }
 
 .box-flex{
@@ -21,6 +20,7 @@
     background-color: rgb(239, 20, 20);
     flex-shrink: 2;
     flex-grow: 2;
+    align-self: center;
 }
 .box-flex-two{
     background-color: green;
