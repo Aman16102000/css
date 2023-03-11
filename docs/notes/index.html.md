@@ -2,7 +2,7 @@
 id: 0anppf5fv69frpph2m9xwy2
 title: CSS
 desc: ''
-updated: 1678460312891
+updated: 1678476437838
 created: 1678459101943
 ---
 ### CSS flex layout
@@ -26,4 +26,35 @@ to apply flex.
 
 1. most used application is "nav bar"
 
-1.  axis in flex box: 
+1.  ### Axis in flex
+    1. **jusify-content**
+        : The justify content property is going to implement in main-axis and the main axis can differ according to the flex direction.
+    1. **align-items**
+        : The align items property is going to implement in cross-axis and differ according to the flex direction.
+
+    1. For flex-direction: row : The main axis is going to be x-axis
+
+     ```mermaid
+       flowchart LR
+        0 --> |main-axis| 1
+     ```
+
+     ```mermaid
+       flowchart TD
+        0 --> |cross-axis| -1
+     ```
+
+    1. For flex-direction: column : The cross axis is going to be y-axis
+     ```mermaid
+       flowchart LR
+        0 --> |cross-axis| 1
+     ```
+
+     ```mermaid
+       flowchart TD
+        0 --> |main-axis| -1
+     ```
+1. **flex-basic**
+    : Overwrites the property of height/width depeding upon the direction of the flex. These property are applied to the items, not to the container
+    1. If the flex-direction is row, then it is going to increase width of the item.
+    1. If the flex-direction is column, then it is going to increase height of the item.

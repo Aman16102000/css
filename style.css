@@ -1,11 +1,29 @@
 .container-flex{
+    border: 2px solid black;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    height:500px
 }
 
 .box-flex{
     height: 50px;
     width: 50px;
-    background-color: blueviolet;
+   
     margin: 5px;
+    flex-basis: 50px; 
+}
+
+.box-flex-one{
+    background-color: rgb(239, 20, 20);
+    flex-grow: 2;
+}
+.box-flex-two{
+    background-color: green;
+    flex-grow: 0;
+}
+.box-flex-three{
+    background-color: blue;
+    flex-grow: 1;
 }
